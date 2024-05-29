@@ -7,7 +7,7 @@ require(['gitbook', 'jquery'], function(gitbook, $) {
 
     gitbook.events.bind('page.change', function() {
         $.map(opts, function(ele) {
-            $(ele).style("display:none;");
+            $(ele).style = "display:none;";
         });
     });
 });
