@@ -1,16 +1,16 @@
 # GitBook Plugin
 
-Hide the element that you don't want to see.
+Set the element style "display:none" that you don't want to see.
 
 ## Usage
 
 ```
 {
     "plugins": [
-        "hide-element"
+        "element-display-none"
     ],
     "pluginsConfig": {
-        "hide-element": {
+        "element-display-none": {
             "elements": [".gitbook-link"]
         }
     }
